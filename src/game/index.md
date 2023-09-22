@@ -1,275 +1,273 @@
 # microsr (beta)
 
-> minimalist d6-based rules for old-school roleplaying game.
+> regole minimaliste basate sul d6 per gioco di ruolo vecchia scuola.
 
-## characters
+## personaggi
 
-give them a name & an origin.
+dagli un nome & un’origine.
 
-they start at level 1.
+parte al livello 1.
 
-there are six domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*. you have three methods to set their scores. ask the gm for their preferred method.
+ci sono sei domini: *combattimento*, *istinto*, *furtività*, *spedizione*, *conoscenza*, *atletica*. ci sono tre metodi per assegnare i loro punteggi: chiedi a chi fa da **gm** quale metodo predilige.
 
-1 - roll for your modifiers
+1 - tira per i tuoi modificatori
 
-|  d6 | modifier |
-|----:|---------:|
-|   1 |       -2 |
-|   2 |       -1 |
-| 3-4 |        0 |
-| 5-6 |       +1 |
+|  d6 | modificatore |
+|----:|-------------:|
+|   1 |       -2     |
+|   2 |       -1     |
+| 3-4 |        0     |
+| 5-6 |       +1     |
 
-2 - assign +1, +1, 0, 0, -1, -2 as you want.
+2 - assegna come vuoi +1, +1, 0, 0, -1, -2.
 
-3 - assign scores as you want, but no starting score should be above +1 or below
--2. the sum of all scores should be equal to -1.
+3 - assegna i punteggi che vuoi, ma nessun punteggio iniziale dovrebbe essere superiore a +1 o inferiore a -2. la somma di tutti i punteggi dovrebbe essere uguale a -1.
 
-### health
+### salute
 
-normal characters have 5 wounds.
+i personaggi normali hanno 5 ferite.
 
-starting of the *weakened* health degree, characters suffer a modifier to all their actions.
+a partire dal grado di salute *indebolito*, i personaggi subiscono un modificatore a tutte le loro azioni.
 
-| health        | wounds left | mod |
-|:--------------|:------------|:---:|
-| healthy       | all         |  0  |
-| (scratched)   | (5 or more) | (0) |
-| weakened      | 4           | -1  |
-| hurt          | 3           | -2  |
-| wounded       | 2           | -3  |
-| crippled      | 1           | -4  |
-| out of action | 0           | n/a |
+| salute        | ferite rimaste | mod |
+|:--------------|:---------------|:---:|
+| integro       | tutte          |  0  |
+| (scalfito)    | (5 o più)      | (0) |
+| indebolito    | 4              | -1  |
+| sofferente    | 3              | -2  |
+| ferito        | 2              | -3  |
+| menomato      | 1              | -4  |
+| fuori gioco   | 0              | n/a |
 
-*out of action* characters must make a *save check* each round until they're healed, or die.
+i personaggi *fuori gioco* devono superare una *prova per salvarsi* ogni round finché non vengono curati, altrimenti muoiono.
 
-### perks
+### extra
 
-your character is either a magic-user or a non-magic user.
+il tuo personaggio può essere un utente di magia oppure no.
 
-ask your **gm** if you're allowed to play a magic-user according to the settings and your origin.
+chiedi a chi ti fa da **gm** se ti è concesso giocare un utente di magia stando all'ambientazione e alla tua origine.
 
-#### non-magic perks
+#### extra non magici
 
-any character can pick any of these non-magic perks, as long as they don't choose the magic-user career.
+qualunque personaggio può prendere qualsiasi di questi extra non magici, fintantoché non scelga la carriera di utente di magia.
 
-each perk gives +1 to any roll related to it, unless specified otherwise.
+ciascun extra dà +1 a tutti i tiri a esso collegati, a meno che non sia diversamente specificato.
 
-pick two (you can't pick the same perk twice):
+prendine due (non puoi prendere lo stesso extra due volte):
 
-* *blade master*: fighting with a sword or sword-like, axe (can be extended to any melee weapon if the **gm** agrees),
-* *projectile master*: fighting using a ranged weapon - sling, bow, etc.
-* *nimble fingers*: picking locks, disarming traps, pickpocket, etc.
-* *blazing fast*: running and initiative.
-* *expertise*: choose a specific field of knowledge (science?) where you are an expert. the *gm* has to agree on this field description.
-* *diehard*: when rolling for a *save check*.
-* *tough*: no bonus, but add an extra degree of health, "scratched".
-* *contact*: no bonus ; the player should describe a contact which provides useful services at no or reduced costs (information, material, etc). the **gm** has to agree on the description.
+* *maestro delle lame*: combattere con una spada o un'arma simile a una spada, un'ascia (può essere esteso a qualsiasi arma da mischia se chi fa da **gm** acconsente).
+* *maestro dei proiettili*: combattere usando un'arma da tiro - fionda, arco, ecc.
+* *dita agili*: scassinare serrature, rimuovere trappole, svuotare tasche, ecc.
+* *ultra-veloce*: corsa e iniziativa.
+* *competenza*: scegli uno specifico campo del sapere (scienza?) in cui hai esperienza. chi fa da **gm** deve essere d'accordo sulla descrizione di questo campo.
+* *pellaccia dura*: quando tiri per una *prova per salvarsi*.
+* *resistente*: nessun bonus, ma aggiungi un ulteriore grado di salute, "scalfito".
+* *contatto*: nessun bonus; chi gioca il personaggio dovrebbe descrivere un contatto che fornisce servizi utili o a costi ridotti o nulli (informazioni, materiale, ecc.). chi fa da **gm** deve essere d'accordo con la descrizione.
 
-#### magic-related perks
+#### extra legati alla magia
 
 ![micromage](../img/micromage.png)
 
-all magic requires saying two words of power: an action and a realm. every 1st level caster starts out knowing three words of power, but must know at least **one action** and **one realm**.
+tutta la magia richiede la pronuncia di due parole di potere: **un'azione** e **un reame**. ciascun personaggio del 1° livello che lancia incantesimi parte conoscendo tre parole di potere, ma deve conoscere almeno **un'azione** e **un reame**.
 
 
-#### the four actions
+#### le quattro azioni
 
-* enhance (*augeo*): strengthen, heal, enlarge, repair, sharpen, etc.
-* diminish (*infirmo*): weaken, damage, injure, reduce, break, dull, deteriorate, etc.
-* communicate with (*defero*): sense, read, seek, inform,
-determine, understand, etc.
-* control (*tempero*): shape, hold, command, form, direct, dictate, etc. (control can only be learned after all other actions have been learned.)
+* potenzia (*augeo*): rafforza, cura, ingrandisci, ripara, affila, ecc.
+* diminuisci (*infirmo*): rafforza, cura, ingrandisci, ripara, affila, ecc.
+* comunica (*defero*): percepisci, leggi, cerca, informa, determina, comprendi, ecc.
+* controlla (*tempero*): plasma, blocca, comanda, modella, dirigi, detta, ecc. (controlla può essere appreso solo dopo aver imparato tutte le altre azioni).
 
-#### the five realms
+#### i cinque reami
 
-* body (*corpus*): bodies of living things, plants.
-* mind (*mentus*): the thinking, feeling and conscious part of an entity.
-* spirit (*animus*): essence or soul. (spirit can only be learned after you have at least three realms and three actions.)
-* energy (*navitas*): fire, liquid water, air, magic, electricity, and (optionally) time.
-* matter (*materia*): solid, mindless material like stone, ice, metal, wood, leather, paper, etc.
+* corpo (*corpus*): corpi di esseri viventi, piante.
+* mente (*mens*): la parte pensante, emotiva e conscia di un'entità.
+* spirito (*animus*): essenza o anima (spirito può essere appreso solo dopo aver imparato almeno tre azioni e tre reami).
+* energia (*navitas*): fuoco, acqua liquida, aria, magia, elettricità e (facoltativamente) tempo.
+* materia (*materia*): materiale solido, inerte, come pietra, ghiaccio, metallo, legno, cuoio, carta, ecc.
 
-### equipment
+### equipaggiamento
 
-regular clothes, a small blade or knife, a bag, rations for a couple of days.
+vestiti normali, una piccola lama o un coltello, una borsa, razioni per un paio di giorni.
 
-your **gm** may accept to add items depending on your background.
+chi ti fa da **gm** potrebbe acconsentire ad aggiungere oggetti in base al tuo background.
 
-you have d6 silver pieces (sp).
+hai d6 monete d'argento (ma).
 
-#### armor
+#### armatura
 
-if the **gm** allows you to wear an armor.
-armors may inflict movement penalties.
+se chi fa da **gm** ti consente d'indossare un'armatura.
+ le armature potrebbero infliggere penalità al movimento.
 
-| armor type | ac | mov |
-|:-----------|:--:|----:|
-| no armor   | 4  |   0 |
-| light      | 6  |  -1 |
-| medium     | 8  |  -2 |
-| heavy      | 10 |  -3 |
-| shield     | +1 | n/a |
+| tipo d'armatura | ca | mov |
+|:----------------|:--:|----:|
+| nessuna armatura| 4  |   0 |
+| leggera         | 6  |  -1 |
+| media           | 8  |  -2 |
+| pesante         | 10 |  -3 |
+| scudo           | +1 | n/a |
 
 ![microknight](../img/microknight.png)
 
-### meat
+### carne al fuoco
 
-the **gm** should talk to the players about their characters.  
-where do they come from? what's their story?  
-do they have goals? a quest to fulfill?  
-what are their relationships? do they have friends, family, siblings? who are their enemies? what do they fear the most?
+la persona che gioca come **gm** dovrebbe parlare dei loro personaggi con le altre persone che partecipano al gioco.
+da dove vengono? qual è la loro storia?
+ hanno degli obiettivi? una missione da portare a termine?
+ che rapporti hanno? hanno amicizie, una famiglia, sorelle e/o fratelli? di chi sono rivali? di cosa hanno più paura?
 
-## act
+## passare all'azione
 
-if it's *likely*, it **happens**.
-if it's *impossible*, it **doesn't**.
-only roll if the **gm** has *doubts*.
+se è *plausibile*, **accade**.
+se è *impossible*, **non accade**.
+tira unicamente se chi fa da **gm** ha dei *dubbi*.
 
-roll 2d6+*domain*, include armor or health modifiers when applicable.
+tira 2d6+*dominio*, includi i modificatori di armatura o salute se applicabili.
 
-* on 6-, failure.
-* on 7-9, success with a cost.
-* 10+, success at no cost.
+* con un 6-, fallimento.
+* con un 7-9, successo a un costo.
+* 10+, successo senza un costo.
 
-*success*: the player describes.  
-*failure*: the **gm** decides.  
-*mixed*: the **gm** and/or other players can suggest the cost for mixed success. the **gm** has the final word.
+*successo*: chi gioca il personaggio che ha agito descrive.
+*fallimento*: chi fa da **gm** decide.
+*misto*: la persona che fa da **gm** e/o le altre persone che partecipano al gioco possono suggerire il costo per un successo misto. chi gioca come **gm** ha l'ultima parola.
 
-### rerolls
+### ritiri
 
-once per session per level, you are allowed to reroll a dice roll.
+una volta a sessione per livello, ti è concesso ripetere un tiro di dadi.
 
-**beware!** the reroll result *becomes* the final result, you can't reroll a reroll, whether you like it or not.
+**attenzione!** il risultato del ritiro *diventa* il risultato finale, non puoi ripetere un ritiro, che ti piaccia o no.
 
-*optional*: the **gm** may allow or forbid rerolls for *save check*.
+*facoltativo*: chi fa da **gm** potrebbe consentire o proibire i ritiri per le *prove per salvarsi*.
 
-### spellcasting
+### lancio di incantesimi
 
-the magic-user picks a combination of two words of power, one action and one realm, and describes the wanted effect.
+l'utente di magia prende una combinazione di due parole di potere, un'azione e un reame, e descrive l'effetto voluto.
 
-> e.g. kirshan the sorcerer want to combine *infirmo* (diminish) with *navitas* (energy) to extinguish a fire that has started in the inn his group was sleeping in. the fire is still small, so the **gm** agrees that the player can roll for it.
+> p. es. kirshan lo stregone vuole combinare *infirmo* (diminuisci) con *navitas* (energia) per estinguere un fuoco che è divampato nella locanda in cui sta dormendo il suo gruppo. il fuoco è ancora piccolo, così la persona che sta facendo da **gm** acconsente che chi sta giocando lo stregone possa tirare per provarci.
 
-spells rolls is a 2d6+**lore** using the usual three-tier outcomes. failures can endanger the magic-user or characters around.
+per gli incantesimi si tira 2d6+**conoscenza** usando i consueti esiti a tre stadi. i fallimenti possono mettere in pericolo l'utente di magia o i personaggi nei suoi paraggi.
 
-if the spell is offensive, your roll against the character **ac** (strictly greater). on a success, opponent decreases one degree of health.
+se l'incantesimo è offensivo, tiri contro la **ca** del personaggio (devi fare un tiro più alto). in caso di successo, l'opponente perde un singolo grado di salute.
 
-you can roll *level* x spells per day. you need a full rest to recover your ability to cast spells.
+puoi tirare *livello* x incantesimi al giorno. per ripristinare la tua capacità di lanciare incantesimi hai bisogno di un riposo completo.
 
-### optional: help
+### facoltativo: aiutare
 
-helpers roll for the action. one plain success (10+) allows the helped character to reroll if needed.
+chi aiuta tira per l'azione. un successo pieno (10+) consente al personaggio aiutato di ritirare, se necessario.
 
-## combat
+## combattere
 
-### initiative
+### iniziativa
 
-at the beginning of the fight: roll 2d6+*instinct*.
+all'inizio di uno scontro: tirate 2d6+*istinto*.
 
-the ones who succeed will act first, then the mixed successful ones, then the failures. each tier will be considered as simultaneous actions.
+chi ha successo agirà prima, poi agirà chi ha avuto un successo misto, poi chi ha fallito. le azioni per ciascuna categoria saranno considerate simultanee.
 
-### fight
+### scontri
 
-on your turn, you are allowed to make one action and one attack.
+al tuo turno, ti è concesso fare una singola azione e un singolo attacco.
 
-the action can be: move for a few meters, dodge, jump, take an item from your bag, change your weapon, etc. optionally, you can choose to make two actions ; normal characters can't make two attacks per round.
+l'azione può essere: spostarti di pochi metri, scansarti, saltare, prendere un oggetto dalla tua borsa, cambiare la tua arma, ecc. facoltativamente, puoi scegliere di fare due azioni; i personaggi ordinari non possono fare due attacchi a round.
 
-roll 2d6+**combat** and beat your opponent **ac** (strictly greater). on a hit, the character checks *one* degree of health.
+tira 2d6+**combattimento** e batti la **ca** avversaria (devi fare un tiro più alto). se il colpo è andato a segno, il personaggio colpito spunta un *singolo* grado di salute.
 
-the reroll rule also applies to attack rolls.
+la regola dei ritiri si applica anche ai tiri d'attacco.
 
-when all degrees are checked, the character is **out of action**, dying. if not healed rapidly, death will come.
+quando tutti i gradi sono spuntati, il personaggio è messo **fuori gioco**, morente. se non curato rapidamente, sopraggiungerà la morte.
 
-make a *save check* each round. on a failure, the character dies.
+supera una *prova per salvarsi* ogni round: in caso di fallimento, il personaggio muore.
 
-### save check
+### prova per salvarsi
 
-when you're facing a dreadful danger, are *out of action*, poisoned or charmed, you'll have to roll 2d6 **with no modifier**. a result of 6- means failure, there's no mixed success.
+quando stai fronteggiando un pericolo tremendo, sei *fuori gioco*, sotto l'effetto di un veleno o di una fascinazione magica, dovrai tirare 2d6 **senza modificatori**: un risultato di 6- indicherà un fallimento, non c'è successo misto.
 
-failure usually means death.
+di solito, il fallimento equivale alla morte.
 
-### optional: heavy weapons
+### facoltativo: armi pesanti
 
-heavy weapons, such as two-handed swords or battle-axes: you'll suffer a -1 malus, but *two* degrees are checked on a hit.
+armi pesanti, come spadoni a due mani o asce da battaglia: avrai -1 di penalità, ma con un colpo andato a segno andranno spuntati *due* gradi.
 
-### optional: critical hits & failures
+### facoltativo: colpi critici & fallimenti
 
-on a double 1, or "snake eyes": you fail miserably and your opponent hits you (check *one* degree).
+con un doppio 1, o gli "occhi del serpente": fallisci miseramente e l'opponente ti colpisce (spunta un *singolo grado*).
 
-on a double 6, or "crowns": you succeed and double your damages. optionally, you can choose to hit two targets instead of one.
+con un doppio 6, o le "corone": hai successo e raddoppi i tuoi danni. facoltativamente, puoi scegliere di colpire due bersagli invece di uno solo.
 
-## experience
+## esperienza
 
-the **gm** must reward clever choices and decisions, taking risks is okay, but lucky dice rolls would be the reward, not experience points. reward acting as a group, following the character's goals, quests or dreams.
+chi gioca come **gm** deve ricompensare le scelte e le decisioni azzeccate. prendersi dei rischi è okay, ma quand'è così la ricompensa dovrebbe essere rappresentata dai tiri fortunati, non da punti esperienza. va ricompensato l'agire di squadra, il seguire gli obiettivi, le missioni o i sogni del personaggio.
 
-surviving is already a reward in itself.
+sopravvivere è già di per sé una ricompensa.
 
-at the end of their first adventure, they'll reach level 2.
+alla fine della loro prima avventura, raggiungeranno il livello 2.
 
-when they'll accomplish their common goal, they'll reach level 3.
+quando completeranno il loro obiettivo comune, raggiungeranno il livello 3.
 
-when they'll fulfill their personal quest, they'll reach level 5.
+quando termineranno la loro missione personale, raggiungeranno il livello 5.
 
-when they'll have saved the lives of a whole kingdom, they'll reach level 8.
+quando avranno salvato le vite di un intero regno, raggiungeranno il livello 8.
 
 ----
 
-# game masters
+# game master
 
-## foes & monsters
+## rivali & mostri
 
-foes are defined by their:
+rivali e mostri sono definiti da:
 
-* **might**: modifier to apply to all actions,
-* **ac**: armor class - *mov* modifiers apply for physical maneuvers.
-* **wounds**: health degrees - if their starting wound is below 5, the **gm** won't have to apply the usual health modifier for the **npc** actions.
+* **potenza**: un modificatore da applicare a tutte le azioni.
+* **ca**: classe armatura - i modificatori di *mov* vanno applicati alle manovre fisiche.
+* **ferite**: gradi di salute - se le loro ferite iniziali sono meno di 5, chi fa da **gm** non deve applicare alle azioni dei **png** il consueto modificatore per la salute.
 
-### should they fight?
+### dovrebbero combattere?
 
-fighting should not be the automatic options when **pcs** are encountering a foe or a monster. they can try to discuss, negotiate, bribe, flee, sneak behind them, etc. let the players be creative. prepare for the unexpected.
+combattere non dovrebbe essere la scelta automatica quando i **pg** s'imbattono in rivali o mostri: possono provare a discutere, negoziare, corrompere, scappare, sgattaiolare alle loro spalle, ecc. lascia che le altre persone che giocano siano creative. preparati ai fuoriprogramma.
 
-monsters are here for a reason. they're not **xp** livestock. they're not here to be killed. they can be afraid. they can flee. they can have a strategy. maybe they could see the **pcs** offer as a chance to escape their miserable life. or they're just hungry.
+personaggi nemici e mostri sono qui per un motivo. non sono bestiame da **pe**. non sono qui per essere uccisi. possono aver paura. possono fuggire. possono avere una strategia. magari, potrebbero vedere l'offerta dei **pg** come un'occasione per scappare dalle loro miserabili vite. oppure sono semplicemente affamati.
 
-monsters have motivations. don't ignore this.
+rivali e mostri hanno delle motivazioni: non ignoratelo.
 
-### morale checks
+### prove di morale
 
-when the situation is taking a bad turn for the foes, the **gm** can make a morale check. this situation could be one of this non-exhaustive list:
+quando la situazione sta prendendo una brutta piega per rivali e mostri, chi fa da **gm** può fare una prova di morale. questa circostanza potrebbe essere una da questo elenco non esaustivo:
 
-* they were outnumbering the **pcs**, but now the situation is reversed,
-* they're badly hurt, or threatened by a big danger,
-* the **pcs** have a special protection that the foes can't overcome,
+* erano in superiorità numerica rispetto ai **pg**, ma adesso la situazione è capovolta.
+* hanno ferite gravi o su di loro incombe la minaccia di un grosso pericolo.
+* i **pg** hanno una protezione speciale che non possono superare.
 
-whenever the **gm** feels the need to check the foes reaction, roll d6. if the foes **might** is negative, roll two dice and keep the lowest.
+ogniqualvolta chi fa da **gm** sente la necessità di controllare la reazione di rivali e mostri, tira un d6. se la loro **potenza** è negativa, vanno tirati due dadi e usato solo il più basso.
 
-| roll | reaction                                   |
-|:----:|:-------------------------------------------|
-|  1   | flee                                       |
-|  2   | surrender / parley                         |
-|  3   | search for help / call to arms             |
-|  4   | try to trick the **pcs** / change strategy |
-|  5   | try to capture / eat the **pcs**           |
-|  6   | keep up the fight                          |
+| tiro | reazione                                      |
+|:----:|:----------------------------------------------|
+|  1   | fugge                                         |
+|  2   | s'arrende / tratta                            |
+|  3   | cerca aiuto / richiama alle armi              |
+|  4   | tenta d'ingannare i **pg** / cambia strategia |
+|  5   | prova a catturare / mangiare i **pg**         |
+|  6   | continua a combattere                         |
 
 
-### micro-bestiary
+### micro-bestiario
 
-| name         | might  | ac  | wounds | notes / details                                                                                                                             |
-|:-------------|:------:|:---:|:------:|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| goblin       |   -1   | 4-6 |   1    | size: 2d6 individuals. +1 to attacks when in horde                                                                                          |
-| giant rat    |   -1   |  8  |   1    | do not apply **mov** penalty, they're quick.                                                                                                |
-| bandit       | -1 — 0 |  6  | 4 — 6  | size: 1d6 or 2d6 individuals                                                                                                                |
-| orc          |   0    | 7-8 | 3 — 4  | some wear shields or mails                                                                                                                  |
-| skeleton     |   0    |  6  |   5    | missiles or ranged weapons won't wound them                                                                                                 |
-| troll        | 0 — +2 |  9  |   6    | heavy weapons (clubs or hammers)                                                                                                            |
-| giant snake  | 0 — +2 |  6  | 5 — 7  | may be venomous (one *save check* vs. poison per round if bitten) ; constrict attack: one *save check* per round or you're out of action    |
-| giant spider |   +3   |  9  |   7    | one *save check* vs. poison per round if bitten                                                                                             |
-| dragon       |   +4   | 12  |   8    | knows 3-6 words of power ; fire does 2 wounds ; 2 attacks per round ; *mov* penalty (-4) only on the ground for movements, not when flying. |
+| nome             | potenza | ca  | ferite | note / dettagli                                                                                                                                                 |
+|:-----------------|:-------:|:---:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| goblin           |   -1    | 4-6 |    1   | quantità: 2d6 individui. +1 agli attacchi quando fanno parte di un'orda                                                                                         |
+| ratto gigante    |   -1    |  8  |    1   | non va applicata la penalità al *mov*, sono rapidi                                                                                                              |
+| fuorilegge       | -1 — 0  |  6  |  4 — 6 | quantità: 1d6 o 2d6 individui                                                                                                                                   |
+| orco             |    0    | 7-8 |  3 — 4 | alcuni usano scudi o cotte di maglia                                                                                                                            |
+| scheletro        |    0    |  6  |    5   | proiettili o armi da tiro non li feriscono                                                                                                                      |
+| troll            | 0 — +2  |  9  |    6   | armi pesanti (clave o martelli)                                                                                                                                 |
+| serpente gigante | 0 — +2  |  6  |  5 — 7 | potrebbe essere velenoso (se ti morde, una *prova per salvarsi* vs. veleno a round); attacco stritolante: una *prova per salvarsi* a round o vai *fuori gioco*  |
+| ragno gigante    |   +3    |  9  |    7   | se ti morde, una *prova per salvarsi* vs. veleno a round                                                                                                        |
+| drago            |   +4    | 12  |    8   | conosce 3-6 parole di potere; il fuoco fa 2 ferite; 2 attacchi a round; penalità di *mov* (-4) solo per gli spostamenti a terra, non mentre vola                |
 
-## traps
+## trappole
 
-the **gm** has to make sure they know every details about traps.
+chi fa da **gm** deve accertarsi di conoscere ogni dettaglio sulle trappole.
 
-traps have a *location* (where is the "thing" that hurts), a *trigger mechanism* (where is it located? how does it triggers the trap?) and an *effect* (blades, darts, pit, poison, gas, agressive spell, crushing rocks or moving walls, etc).
+le trappole hanno un'*ubicazione* (dove si trova la "cosa" che ti fa male), un *innesco* (in che modo è posizionata? come s'attiva la trappola?) e un *effetto* (lame, dardi, fossa, veleno, gas, incantesimo aggressivo, caduta rocce o pareti mobili, ecc).
 
-with all these elements at hand, the characters would only get out of it if the players have to thoroughly searched for them to make sure they can detect, disarm or bypass the traps without being hit.
+con tutti questi elementi a portata di mano, i personaggi potrebbero tirarsene fuori solo se le persone che li stanno giocando hanno cercato accuratamente le trappole per assicurarsi che essi possano individuarle, disarmarle o aggirarle senza essere colpiti.
 
-depending on their *effect*, traps will make from 1 to 3 wounds.
+a seconda del loro *effetto*, le trappole faranno da 1 a 3 ferite.

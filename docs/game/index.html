@@ -5,34 +5,29 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>microsr — rules for old-school roleplaying game</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
   <link rel="stylesheet" href="../style.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1 id="microsr-beta">microsr (beta)</h1>
 <blockquote>
-<p>minimalist d6-based rules for old-school roleplaying game.</p>
+<p>regole minimaliste basate sul d6 per gioco di ruolo vecchia scuola.</p>
 </blockquote>
-<h2 id="characters">characters</h2>
-<p>give them a name &amp; an origin.</p>
-<p>they start at level 1.</p>
-<p>there are six domains: <em>combat</em>, <em>instinct</em>, <em>stealth</em>, <em>wilderness</em>, <em>lore</em>, <em>athletics</em>. you have three methods to set their scores. ask the gm for their preferred method.</p>
-<p>1 - roll for your modifiers</p>
+<h2 id="personaggi">personaggi</h2>
+<p>dagli un nome &amp; un’origine.</p>
+<p>parte al livello 1.</p>
+<p>ci sono sei domini: <em>combattimento</em>, <em>istinto</em>, <em>furtività</em>, <em>spedizione</em>, <em>conoscenza</em>, <em>atletica</em>. ci sono tre metodi per assegnare i loro punteggi: chiedi a chi fa da <strong>gm</strong> quale metodo predilige.</p>
+<p>1 - tira per i tuoi modificatori</p>
 <table>
 <thead>
 <tr class="header">
 <th style="text-align: right;">d6</th>
-<th style="text-align: right;">modifier</th>
+<th style="text-align: right;">modificatore</th>
 </tr>
 </thead>
 <tbody>
@@ -54,261 +49,259 @@
 </tr>
 </tbody>
 </table>
-<p>2 - assign +1, +1, 0, 0, -1, -2 as you want.</p>
-<p>3 - assign scores as you want, but no starting score should be above +1 or below<br />
--2. the sum of all scores should be equal to -1.</p>
-<h3 id="health">health</h3>
-<p>normal characters have 5 wounds.</p>
-<p>starting of the <em>weakened</em> health degree, characters suffer a modifier to all their actions.</p>
+<p>2 - assegna come vuoi +1, +1, 0, 0, -1, -2.</p>
+<p>3 - assegna i punteggi che vuoi, ma nessun punteggio iniziale dovrebbe essere superiore a +1 o inferiore a -2. la somma di tutti i punteggi dovrebbe essere uguale a -1.</p>
+<h3 id="salute">salute</h3>
+<p>i personaggi normali hanno 5 ferite.</p>
+<p>a partire dal grado di salute <em>indebolito</em>, i personaggi subiscono un modificatore a tutte le loro azioni.</p>
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">health</th>
-<th style="text-align: left;">wounds left</th>
+<th style="text-align: left;">salute</th>
+<th style="text-align: left;">ferite rimaste</th>
 <th style="text-align: center;">mod</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">healthy</td>
-<td style="text-align: left;">all</td>
+<td style="text-align: left;">integro</td>
+<td style="text-align: left;">tutte</td>
 <td style="text-align: center;">0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">(scratched)</td>
-<td style="text-align: left;">(5 or more)</td>
+<td style="text-align: left;">(scalfito)</td>
+<td style="text-align: left;">(5 o più)</td>
 <td style="text-align: center;">(0)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">weakened</td>
+<td style="text-align: left;">indebolito</td>
 <td style="text-align: left;">4</td>
 <td style="text-align: center;">-1</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">hurt</td>
+<td style="text-align: left;">sofferente</td>
 <td style="text-align: left;">3</td>
 <td style="text-align: center;">-2</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">wounded</td>
+<td style="text-align: left;">ferito</td>
 <td style="text-align: left;">2</td>
 <td style="text-align: center;">-3</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">crippled</td>
+<td style="text-align: left;">menomato</td>
 <td style="text-align: left;">1</td>
 <td style="text-align: center;">-4</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">out of action</td>
+<td style="text-align: left;">fuori gioco</td>
 <td style="text-align: left;">0</td>
 <td style="text-align: center;">n/a</td>
 </tr>
 </tbody>
 </table>
-<p><em>out of action</em> characters must make a <em>save check</em> each round until they're healed, or die.</p>
-<h3 id="perks">perks</h3>
-<p>your character is either a magic-user or a non-magic user.</p>
-<p>ask your <strong>gm</strong> if you're allowed to play a magic-user according to the settings and your origin.</p>
-<h4 id="non-magic-perks">non-magic perks</h4>
-<p>any character can pick any of these non-magic perks, as long as they don't choose the magic-user career.</p>
-<p>each perk gives +1 to any roll related to it, unless specified otherwise.</p>
-<p>pick two (you can't pick the same perk twice):</p>
+<p>i personaggi <em>fuori gioco</em> devono superare una <em>prova per salvarsi</em> ogni round finché non vengono curati, altrimenti muoiono.</p>
+<h3 id="extra">extra</h3>
+<p>il tuo personaggio può essere un utente di magia oppure no.</p>
+<p>chiedi a chi ti fa da <strong>gm</strong> se ti è concesso giocare un utente di magia stando all'ambientazione e alla tua origine.</p>
+<h4 id="extra-non-magici">extra non magici</h4>
+<p>qualunque personaggio può prendere qualsiasi di questi extra non magici, fintantoché non scelga la carriera di utente di magia.</p>
+<p>ciascun extra dà +1 a tutti i tiri a esso collegati, a meno che non sia diversamente specificato.</p>
+<p>prendine due (non puoi prendere lo stesso extra due volte):</p>
 <ul>
-<li><em>blade master</em>: fighting with a sword or sword-like, axe (can be extended to any melee weapon if the <strong>gm</strong> agrees),</li>
-<li><em>projectile master</em>: fighting using a ranged weapon - sling, bow, etc.</li>
-<li><em>nimble fingers</em>: picking locks, disarming traps, pickpocket, etc.</li>
-<li><em>blazing fast</em>: running and initiative.</li>
-<li><em>expertise</em>: choose a specific field of knowledge (science?) where you are an expert. the <em>gm</em> has to agree on this field description.</li>
-<li><em>diehard</em>: when rolling for a <em>save check</em>.</li>
-<li><em>tough</em>: no bonus, but add an extra degree of health, "scratched".</li>
-<li><em>contact</em>: no bonus ; the player should describe a contact which provides useful services at no or reduced costs (information, material, etc). the <strong>gm</strong> has to agree on the description.</li>
+<li><em>maestro delle lame</em>: combattere con una spada o un'arma simile a una spada, un'ascia (può essere esteso a qualsiasi arma da mischia se chi fa da <strong>gm</strong> acconsente).</li>
+<li><em>maestro dei proiettili</em>: combattere usando un'arma da tiro - fionda, arco, ecc.</li>
+<li><em>dita agili</em>: scassinare serrature, rimuovere trappole, svuotare tasche, ecc.</li>
+<li><em>ultra-veloce</em>: corsa e iniziativa.</li>
+<li><em>competenza</em>: scegli uno specifico campo del sapere (scienza?) in cui hai esperienza. chi fa da <strong>gm</strong> deve essere d'accordo sulla descrizione di questo campo.</li>
+<li><em>pellaccia dura</em>: quando tiri per una <em>prova per salvarsi</em>.</li>
+<li><em>resistente</em>: nessun bonus, ma aggiungi un ulteriore grado di salute, &quot;scalfito&quot;.</li>
+<li><em>contatto</em>: nessun bonus; chi gioca il personaggio dovrebbe descrivere un contatto che fornisce servizi utili o a costi ridotti o nulli (informazioni, materiale, ecc.). chi fa da <strong>gm</strong> deve essere d'accordo con la descrizione.</li>
 </ul>
-<h4 id="magic-related-perks">magic-related perks</h4>
+<h4 id="extra-legati-alla-magia">extra legati alla magia</h4>
 <p><img src="../img/micromage.png" alt="micromage" /></p>
-<p>all magic requires saying two words of power: an action and a realm. every 1st level caster starts out knowing three words of power, but must know at least <strong>one action</strong> and <strong>one realm</strong>.</p>
-<h4 id="the-four-actions">the four actions</h4>
+<p>tutta la magia richiede la pronuncia di due parole di potere: <strong>un'azione</strong> e <strong>un reame</strong>. ciascun personaggio del 1° livello che lancia incantesimi parte conoscendo tre parole di potere, ma deve conoscere almeno <strong>un'azione</strong> e <strong>un reame</strong>.</p>
+<h4 id="le-quattro-azioni">le quattro azioni</h4>
 <ul>
-<li>enhance (<em>augeo</em>): strengthen, heal, enlarge, repair, sharpen, etc.</li>
-<li>diminish (<em>infirmo</em>): weaken, damage, injure, reduce, break, dull, deteriorate, etc.</li>
-<li>communicate with (<em>defero</em>): sense, read, seek, inform,<br />
-determine, understand, etc.</li>
-<li>control (<em>tempero</em>): shape, hold, command, form, direct, dictate, etc. (control can only be learned after all other actions have been learned.)</li>
+<li>potenzia (<em>augeo</em>): rafforza, cura, ingrandisci, ripara, affila, ecc.</li>
+<li>diminuisci (<em>infirmo</em>): rafforza, cura, ingrandisci, ripara, affila, ecc.</li>
+<li>comunica (<em>defero</em>): percepisci, leggi, cerca, informa, determina, comprendi, ecc.</li>
+<li>controlla (<em>tempero</em>): plasma, blocca, comanda, modella, dirigi, detta, ecc. (controlla può essere appreso solo dopo aver imparato tutte le altre azioni).</li>
 </ul>
-<h4 id="the-five-realms">the five realms</h4>
+<h4 id="i-cinque-reami">i cinque reami</h4>
 <ul>
-<li>body (<em>corpus</em>): bodies of living things, plants.</li>
-<li>mind (<em>mentus</em>): the thinking, feeling and conscious part of an entity.</li>
-<li>spirit (<em>animus</em>): essence or soul. (spirit can only be learned after you have at least three realms and three actions.)</li>
-<li>energy (<em>navitas</em>): fire, liquid water, air, magic, electricity, and (optionally) time.</li>
-<li>matter (<em>materia</em>): solid, mindless material like stone, ice, metal, wood, leather, paper, etc.</li>
+<li>corpo (<em>corpus</em>): corpi di esseri viventi, piante.</li>
+<li>mente (<em>mens</em>): la parte pensante, emotiva e conscia di un'entità.</li>
+<li>spirito (<em>animus</em>): essenza o anima (spirito può essere appreso solo dopo aver imparato almeno tre azioni e tre reami).</li>
+<li>energia (<em>navitas</em>): fuoco, acqua liquida, aria, magia, elettricità e (facoltativamente) tempo.</li>
+<li>materia (<em>materia</em>): materiale solido, inerte, come pietra, ghiaccio, metallo, legno, cuoio, carta, ecc.</li>
 </ul>
-<h3 id="equipment">equipment</h3>
-<p>regular clothes, a small blade or knife, a bag, rations for a couple of days.</p>
-<p>your <strong>gm</strong> may accept to add items depending on your background.</p>
-<p>you have d6 silver pieces (sp).</p>
-<h4 id="armor">armor</h4>
-<p>if the <strong>gm</strong> allows you to wear an armor.<br />
-armors may inflict movement penalties.</p>
+<h3 id="equipaggiamento">equipaggiamento</h3>
+<p>vestiti normali, una piccola lama o un coltello, una borsa, razioni per un paio di giorni.</p>
+<p>chi ti fa da <strong>gm</strong> potrebbe acconsentire ad aggiungere oggetti in base al tuo background.</p>
+<p>hai d6 monete d'argento (ma).</p>
+<h4 id="armatura">armatura</h4>
+<p>se chi fa da <strong>gm</strong> ti consente d'indossare un'armatura.<br />
+le armature potrebbero infliggere penalità al movimento.</p>
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">armor type</th>
-<th style="text-align: center;">ac</th>
+<th style="text-align: left;">tipo d'armatura</th>
+<th style="text-align: center;">ca</th>
 <th style="text-align: right;">mov</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">no armor</td>
+<td style="text-align: left;">nessuna armatura</td>
 <td style="text-align: center;">4</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">light</td>
+<td style="text-align: left;">leggera</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: right;">-1</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">medium</td>
+<td style="text-align: left;">media</td>
 <td style="text-align: center;">8</td>
 <td style="text-align: right;">-2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">heavy</td>
+<td style="text-align: left;">pesante</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: right;">-3</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">shield</td>
+<td style="text-align: left;">scudo</td>
 <td style="text-align: center;">+1</td>
 <td style="text-align: right;">n/a</td>
 </tr>
 </tbody>
 </table>
 <p><img src="../img/microknight.png" alt="microknight" /></p>
-<h3 id="meat">meat</h3>
-<p>the <strong>gm</strong> should talk to the players about their characters.<br />
-where do they come from? what's their story?<br />
-do they have goals? a quest to fulfill?<br />
-what are their relationships? do they have friends, family, siblings? who are their enemies? what do they fear the most?</p>
-<h2 id="act">act</h2>
-<p>if it's <em>likely</em>, it <strong>happens</strong>.<br />
-if it's <em>impossible</em>, it <strong>doesn't</strong>.<br />
-only roll if the <strong>gm</strong> has <em>doubts</em>.</p>
-<p>roll 2d6+<em>domain</em>, include armor or health modifiers when applicable.</p>
+<h3 id="carne-al-fuoco">carne al fuoco</h3>
+<p>la persona che gioca come <strong>gm</strong> dovrebbe parlare dei loro personaggi con le altre persone che partecipano al gioco.<br />
+da dove vengono? qual è la loro storia?<br />
+hanno degli obiettivi? una missione da portare a termine?<br />
+che rapporti hanno? hanno amicizie, una famiglia, sorelle e/o fratelli? di chi sono rivali? di cosa hanno più paura?</p>
+<h2 id="passare-allazione">passare all'azione</h2>
+<p>se è <em>plausibile</em>, <strong>accade</strong>.<br />
+se è <em>impossible</em>, <strong>non accade</strong>.<br />
+tira unicamente se chi fa da <strong>gm</strong> ha dei <em>dubbi</em>.</p>
+<p>tira 2d6+<em>dominio</em>, includi i modificatori di armatura o salute se applicabili.</p>
 <ul>
-<li>on 6-, failure.</li>
-<li>on 7-9, success with a cost.</li>
-<li>10+, success at no cost.</li>
+<li>con un 6-, fallimento.</li>
+<li>con un 7-9, successo a un costo.</li>
+<li>10+, successo senza un costo.</li>
 </ul>
-<p><em>success</em>: the player describes.<br />
-<em>failure</em>: the <strong>gm</strong> decides.<br />
-<em>mixed</em>: the <strong>gm</strong> and/or other players can suggest the cost for mixed success. the <strong>gm</strong> has the final word.</p>
-<h3 id="rerolls">rerolls</h3>
-<p>once per session per level, you are allowed to reroll a dice roll.</p>
-<p><strong>beware!</strong> the reroll result <em>becomes</em> the final result, you can't reroll a reroll, whether you like it or not.</p>
-<p><em>optional</em>: the <strong>gm</strong> may allow or forbid rerolls for <em>save check</em>.</p>
-<h3 id="spellcasting">spellcasting</h3>
-<p>the magic-user picks a combination of two words of power, one action and one realm, and describes the wanted effect.</p>
+<p><em>successo</em>: chi gioca il personaggio che ha agito descrive.<br />
+<em>fallimento</em>: chi fa da <strong>gm</strong> decide.<br />
+<em>misto</em>: la persona che fa da <strong>gm</strong> e/o le altre persone che partecipano al gioco possono suggerire il costo per un successo misto. chi gioca come <strong>gm</strong> ha l'ultima parola.</p>
+<h3 id="ritiri">ritiri</h3>
+<p>una volta a sessione per livello, ti è concesso ripetere un tiro di dadi.</p>
+<p><strong>attenzione!</strong> il risultato del ritiro <em>diventa</em> il risultato finale, non puoi ripetere un ritiro, che ti piaccia o no.</p>
+<p><em>facoltativo</em>: chi fa da <strong>gm</strong> potrebbe consentire o proibire i ritiri per le <em>prove per salvarsi</em>.</p>
+<h3 id="lancio-di-incantesimi">lancio di incantesimi</h3>
+<p>l'utente di magia prende una combinazione di due parole di potere, un'azione e un reame, e descrive l'effetto voluto.</p>
 <blockquote>
-<p>e.g. kirshan the sorcerer want to combine <em>infirmo</em> (diminish) with <em>navitas</em> (energy) to extinguish a fire that has started in the inn his group was sleeping in. the fire is still small, so the <strong>gm</strong> agrees that the player can roll for it.</p>
+<p>p. es. kirshan lo stregone vuole combinare <em>infirmo</em> (diminuisci) con <em>navitas</em> (energia) per estinguere un fuoco che è divampato nella locanda in cui sta dormendo il suo gruppo. il fuoco è ancora piccolo, così la persona che sta facendo da <strong>gm</strong> acconsente che chi sta giocando lo stregone possa tirare per provarci.</p>
 </blockquote>
-<p>spells rolls is a 2d6+<strong>lore</strong> using the usual three-tier outcomes. failures can endanger the magic-user or characters around.</p>
-<p>if the spell is offensive, your roll against the character <strong>ac</strong> (strictly greater). on a success, opponent decreases one degree of health.</p>
-<p>you can roll <em>level</em> x spells per day. you need a full rest to recover your ability to cast spells.</p>
-<h3 id="optional-help">optional: help</h3>
-<p>helpers roll for the action. one plain success (10+) allows the helped character to reroll if needed.</p>
-<h2 id="combat">combat</h2>
-<h3 id="initiative">initiative</h3>
-<p>at the beginning of the fight: roll 2d6+<em>instinct</em>.</p>
-<p>the ones who succeed will act first, then the mixed successful ones, then the failures. each tier will be considered as simultaneous actions.</p>
-<h3 id="fight">fight</h3>
-<p>on your turn, you are allowed to make one action and one attack.</p>
-<p>the action can be: move for a few meters, dodge, jump, take an item from your bag, change your weapon, etc. optionally, you can choose to make two actions ; normal characters can't make two attacks per round.</p>
-<p>roll 2d6+<strong>combat</strong> and beat your opponent <strong>ac</strong> (strictly greater). on a hit, the character checks <em>one</em> degree of health.</p>
-<p>the reroll rule also applies to attack rolls.</p>
-<p>when all degrees are checked, the character is <strong>out of action</strong>, dying. if not healed rapidly, death will come.</p>
-<p>make a <em>save check</em> each round. on a failure, the character dies.</p>
-<h3 id="save-check">save check</h3>
-<p>when you're facing a dreadful danger, are <em>out of action</em>, poisoned or charmed, you'll have to roll 2d6 <strong>with no modifier</strong>. a result of 6- means failure, there's no mixed success.</p>
-<p>failure usually means death.</p>
-<h3 id="optional-heavy-weapons">optional: heavy weapons</h3>
-<p>heavy weapons, such as two-handed swords or battle-axes: you'll suffer a -1 malus, but <em>two</em> degrees are checked on a hit.</p>
-<h3 id="optional-critical-hits--failures">optional: critical hits &amp; failures</h3>
-<p>on a double 1, or "snake eyes": you fail miserably and your opponent hits you (check <em>one</em> degree).</p>
-<p>on a double 6, or "crowns": you succeed and double your damages. optionally, you can choose to hit two targets instead of one.</p>
-<h2 id="experience">experience</h2>
-<p>the <strong>gm</strong> must reward clever choices and decisions, taking risks is okay, but lucky dice rolls would be the reward, not experience points. reward acting as a group, following the character's goals, quests or dreams.</p>
-<p>surviving is already a reward in itself.</p>
-<p>at the end of their first adventure, they'll reach level 2.</p>
-<p>when they'll accomplish their common goal, they'll reach level 3.</p>
-<p>when they'll fulfill their personal quest, they'll reach level 5.</p>
-<p>when they'll have saved the lives of a whole kingdom, they'll reach level 8.</p>
+<p>per gli incantesimi si tira 2d6+<strong>conoscenza</strong> usando i consueti esiti a tre stadi. i fallimenti possono mettere in pericolo l'utente di magia o i personaggi nei suoi paraggi.</p>
+<p>se l'incantesimo è offensivo, tiri contro la <strong>ca</strong> del personaggio (devi fare un tiro più alto). in caso di successo, l'opponente perde un singolo grado di salute.</p>
+<p>puoi tirare <em>livello</em> x incantesimi al giorno. per ripristinare la tua capacità di lanciare incantesimi hai bisogno di un riposo completo.</p>
+<h3 id="facoltativo-aiutare">facoltativo: aiutare</h3>
+<p>chi aiuta tira per l'azione. un successo pieno (10+) consente al personaggio aiutato di ritirare, se necessario.</p>
+<h2 id="combattere">combattere</h2>
+<h3 id="iniziativa">iniziativa</h3>
+<p>all'inizio di uno scontro: tirate 2d6+<em>istinto</em>.</p>
+<p>chi ha successo agirà prima, poi agirà chi ha avuto un successo misto, poi chi ha fallito. le azioni per ciascuna categoria saranno considerate simultanee.</p>
+<h3 id="scontri">scontri</h3>
+<p>al tuo turno, ti è concesso fare una singola azione e un singolo attacco.</p>
+<p>l'azione può essere: spostarti di pochi metri, scansarti, saltare, prendere un oggetto dalla tua borsa, cambiare la tua arma, ecc. facoltativamente, puoi scegliere di fare due azioni; i personaggi ordinari non possono fare due attacchi a round.</p>
+<p>tira 2d6+<strong>combattimento</strong> e batti la <strong>ca</strong> avversaria (devi fare un tiro più alto). se il colpo è andato a segno, il personaggio colpito spunta un <em>singolo</em> grado di salute.</p>
+<p>la regola dei ritiri si applica anche ai tiri d'attacco.</p>
+<p>quando tutti i gradi sono spuntati, il personaggio è messo <strong>fuori gioco</strong>, morente. se non curato rapidamente, sopraggiungerà la morte.</p>
+<p>supera una <em>prova per salvarsi</em> ogni round: in caso di fallimento, il personaggio muore.</p>
+<h3 id="prova-per-salvarsi">prova per salvarsi</h3>
+<p>quando stai fronteggiando un pericolo tremendo, sei <em>fuori gioco</em>, sotto l'effetto di un veleno o di una fascinazione magica, dovrai tirare 2d6 <strong>senza modificatori</strong>: un risultato di 6- indicherà un fallimento, non c'è successo misto.</p>
+<p>di solito, il fallimento equivale alla morte.</p>
+<h3 id="facoltativo-armi-pesanti">facoltativo: armi pesanti</h3>
+<p>armi pesanti, come spadoni a due mani o asce da battaglia: avrai -1 di penalità, ma con un colpo andato a segno andranno spuntati <em>due</em> gradi.</p>
+<h3 id="facoltativo-colpi-critici--fallimenti">facoltativo: colpi critici &amp; fallimenti</h3>
+<p>con un doppio 1, o gli &quot;occhi del serpente&quot;: fallisci miseramente e l'opponente ti colpisce (spunta un <em>singolo grado</em>).</p>
+<p>con un doppio 6, o le &quot;corone&quot;: hai successo e raddoppi i tuoi danni. facoltativamente, puoi scegliere di colpire due bersagli invece di uno solo.</p>
+<h2 id="esperienza">esperienza</h2>
+<p>chi gioca come <strong>gm</strong> deve ricompensare le scelte e le decisioni azzeccate. prendersi dei rischi è okay, ma quand'è così la ricompensa dovrebbe essere rappresentata dai tiri fortunati, non da punti esperienza. va ricompensato l'agire di squadra, il seguire gli obiettivi, le missioni o i sogni del personaggio.</p>
+<p>sopravvivere è già di per sé una ricompensa.</p>
+<p>alla fine della loro prima avventura, raggiungeranno il livello 2.</p>
+<p>quando completeranno il loro obiettivo comune, raggiungeranno il livello 3.</p>
+<p>quando termineranno la loro missione personale, raggiungeranno il livello 5.</p>
+<p>quando avranno salvato le vite di un intero regno, raggiungeranno il livello 8.</p>
 <hr />
-<h1 id="game-masters">game masters</h1>
-<h2 id="foes--monsters">foes &amp; monsters</h2>
-<p>foes are defined by their:</p>
+<h1 id="game-master">game master</h1>
+<h2 id="rivali--mostri">rivali &amp; mostri</h2>
+<p>rivali e mostri sono definiti da:</p>
 <ul>
-<li><strong>might</strong>: modifier to apply to all actions,</li>
-<li><strong>ac</strong>: armor class - <em>mov</em> modifiers apply for physical maneuvers.</li>
-<li><strong>wounds</strong>: health degrees - if their starting wound is below 5, the <strong>gm</strong> won't have to apply the usual health modifier for the <strong>npc</strong> actions.</li>
+<li><strong>potenza</strong>: un modificatore da applicare a tutte le azioni.</li>
+<li><strong>ca</strong>: classe armatura - i modificatori di <em>mov</em> vanno applicati alle manovre fisiche.</li>
+<li><strong>ferite</strong>: gradi di salute - se le loro ferite iniziali sono meno di 5, chi fa da <strong>gm</strong> non deve applicare alle azioni dei <strong>png</strong> il consueto modificatore per la salute.</li>
 </ul>
-<h3 id="should-they-fight">should they fight?</h3>
-<p>fighting should not be the automatic options when <strong>pcs</strong> are encountering a foe or a monster. they can try to discuss, negotiate, bribe, flee, sneak behind them, etc. let the players be creative. prepare for the unexpected.</p>
-<p>monsters are here for a reason. they're not <strong>xp</strong> livestock. they're not here to be killed. they can be afraid. they can flee. they can have a strategy. maybe they could see the <strong>pcs</strong> offer as a chance to escape their miserable life. or they're just hungry.</p>
-<p>monsters have motivations. don't ignore this.</p>
-<h3 id="morale-checks">morale checks</h3>
-<p>when the situation is taking a bad turn for the foes, the <strong>gm</strong> can make a morale check. this situation could be one of this non-exhaustive list:</p>
+<h3 id="dovrebbero-combattere">dovrebbero combattere?</h3>
+<p>combattere non dovrebbe essere la scelta automatica quando i <strong>pg</strong> s'imbattono in rivali o mostri: possono provare a discutere, negoziare, corrompere, scappare, sgattaiolare alle loro spalle, ecc. lascia che le altre persone che giocano siano creative. preparati ai fuoriprogramma.</p>
+<p>personaggi nemici e mostri sono qui per un motivo. non sono bestiame da <strong>pe</strong>. non sono qui per essere uccisi. possono aver paura. possono fuggire. possono avere una strategia. magari, potrebbero vedere l'offerta dei <strong>pg</strong> come un'occasione per scappare dalle loro miserabili vite. oppure sono semplicemente affamati.</p>
+<p>rivali e mostri hanno delle motivazioni: non ignoratelo.</p>
+<h3 id="prove-di-morale">prove di morale</h3>
+<p>quando la situazione sta prendendo una brutta piega per rivali e mostri, chi fa da <strong>gm</strong> può fare una prova di morale. questa circostanza potrebbe essere una da questo elenco non esaustivo:</p>
 <ul>
-<li>they were outnumbering the <strong>pcs</strong>, but now the situation is reversed,</li>
-<li>they're badly hurt, or threatened by a big danger,</li>
-<li>the <strong>pcs</strong> have a special protection that the foes can't overcome,</li>
+<li>erano in superiorità numerica rispetto ai <strong>pg</strong>, ma adesso la situazione è capovolta.</li>
+<li>hanno ferite gravi o su di loro incombe la minaccia di un grosso pericolo.</li>
+<li>i <strong>pg</strong> hanno una protezione speciale che non possono superare.</li>
 </ul>
-<p>whenever the <strong>gm</strong> feels the need to check the foes reaction, roll d6. if the foes <strong>might</strong> is negative, roll two dice and keep the lowest.</p>
+<p>ogniqualvolta chi fa da <strong>gm</strong> sente la necessità di controllare la reazione di rivali e mostri, tira un d6. se la loro <strong>potenza</strong> è negativa, vanno tirati due dadi e usato solo il più basso.</p>
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">roll</th>
-<th style="text-align: left;">reaction</th>
+<th style="text-align: center;">tiro</th>
+<th style="text-align: left;">reazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">flee</td>
+<td style="text-align: left;">fugge</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
-<td style="text-align: left;">surrender / parley</td>
+<td style="text-align: left;">s'arrende / tratta</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">search for help / call to arms</td>
+<td style="text-align: left;">cerca aiuto / richiama alle armi</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
-<td style="text-align: left;">try to trick the <strong>pcs</strong> / change strategy</td>
+<td style="text-align: left;">tenta d'ingannare i <strong>pg</strong> / cambia strategia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">try to capture / eat the <strong>pcs</strong></td>
+<td style="text-align: left;">prova a catturare / mangiare i <strong>pg</strong></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">keep up the fight</td>
+<td style="text-align: left;">continua a combattere</td>
 </tr>
 </tbody>
 </table>
-<h3 id="micro-bestiary">micro-bestiary</h3>
+<h3 id="micro-bestiario">micro-bestiario</h3>
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">name</th>
-<th style="text-align: center;">might</th>
-<th style="text-align: center;">ac</th>
-<th style="text-align: center;">wounds</th>
-<th style="text-align: left;">notes / details</th>
+<th style="text-align: left;">nome</th>
+<th style="text-align: center;">potenza</th>
+<th style="text-align: center;">ca</th>
+<th style="text-align: center;">ferite</th>
+<th style="text-align: left;">note / dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -317,73 +310,74 @@ only roll if the <strong>gm</strong> has <em>doubts</em>.</p>
 <td style="text-align: center;">-1</td>
 <td style="text-align: center;">4-6</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">size: 2d6 individuals. +1 to attacks when in horde</td>
+<td style="text-align: left;">quantità: 2d6 individui. +1 agli attacchi quando fanno parte di un'orda</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">giant rat</td>
+<td style="text-align: left;">ratto gigante</td>
 <td style="text-align: center;">-1</td>
 <td style="text-align: center;">8</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">do not apply <strong>mov</strong> penalty, they're quick.</td>
+<td style="text-align: left;">non va applicata la penalità al <em>mov</em>, sono rapidi</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">bandit</td>
+<td style="text-align: left;">fuorilegge</td>
 <td style="text-align: center;">-1 — 0</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: center;">4 — 6</td>
-<td style="text-align: left;">size: 1d6 or 2d6 individuals</td>
+<td style="text-align: left;">quantità: 1d6 o 2d6 individui</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">orc</td>
+<td style="text-align: left;">orco</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">7-8</td>
 <td style="text-align: center;">3 — 4</td>
-<td style="text-align: left;">some wear shields or mails</td>
+<td style="text-align: left;">alcuni usano scudi o cotte di maglia</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">skeleton</td>
+<td style="text-align: left;">scheletro</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">missiles or ranged weapons won't wound them</td>
+<td style="text-align: left;">proiettili o armi da tiro non li feriscono</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">troll</td>
 <td style="text-align: center;">0 — +2</td>
 <td style="text-align: center;">9</td>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">heavy weapons (clubs or hammers)</td>
+<td style="text-align: left;">armi pesanti (clave o martelli)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">giant snake</td>
+<td style="text-align: left;">serpente gigante</td>
 <td style="text-align: center;">0 — +2</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: center;">5 — 7</td>
-<td style="text-align: left;">may be venomous (one <em>save check</em> vs. poison per round if bitten) ; constrict attack: one <em>save check</em> per round or you're out of action</td>
+<td style="text-align: left;">potrebbe essere velenoso (se ti morde, una <em>prova per salvarsi</em> vs. veleno a round); attacco stritolante: una <em>prova per salvarsi</em> a round o vai <em>fuori gioco</em></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">giant spider</td>
+<td style="text-align: left;">ragno gigante</td>
 <td style="text-align: center;">+3</td>
 <td style="text-align: center;">9</td>
 <td style="text-align: center;">7</td>
-<td style="text-align: left;">one <em>save check</em> vs. poison per round if bitten</td>
+<td style="text-align: left;">se ti morde, una <em>prova per salvarsi</em> vs. veleno a round</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">dragon</td>
+<td style="text-align: left;">drago</td>
 <td style="text-align: center;">+4</td>
 <td style="text-align: center;">12</td>
 <td style="text-align: center;">8</td>
-<td style="text-align: left;">knows 3-6 words of power ; fire does 2 wounds ; 2 attacks per round ; <em>mov</em> penalty (-4) only on the ground for movements, not when flying.</td>
+<td style="text-align: left;">conosce 3-6 parole di potere; il fuoco fa 2 ferite; 2 attacchi a round; penalità di <em>mov</em> (-4) solo per gli spostamenti a terra, non mentre vola</td>
 </tr>
 </tbody>
 </table>
-<h2 id="traps">traps</h2>
-<p>the <strong>gm</strong> has to make sure they know every details about traps.</p>
-<p>traps have a <em>location</em> (where is the "thing" that hurts), a <em>trigger mechanism</em> (where is it located? how does it triggers the trap?) and an <em>effect</em> (blades, darts, pit, poison, gas, agressive spell, crushing rocks or moving walls, etc).</p>
-<p>with all these elements at hand, the characters would only get out of it if the players have to thoroughly searched for them to make sure they can detect, disarm or bypass the traps without being hit.</p>
-<p>depending on their <em>effect</em>, traps will make from 1 to 3 wounds.</p>
+<h2 id="trappole">trappole</h2>
+<p>chi fa da <strong>gm</strong> deve accertarsi di conoscere ogni dettaglio sulle trappole.</p>
+<p>le trappole hanno un'<em>ubicazione</em> (dove si trova la &quot;cosa&quot; che ti fa male), un <em>innesco</em> (in che modo è posizionata? come s'attiva la trappola?) e un <em>effetto</em> (lame, dardi, fossa, veleno, gas, incantesimo aggressivo, caduta rocce o pareti mobili, ecc).</p>
+<p>con tutti questi elementi a portata di mano, i personaggi potrebbero tirarsene fuori solo se le persone che li stanno giocando hanno cercato accuratamente le trappole per assicurarsi che essi possano individuarle, disarmarle o aggirarle senza essere colpiti.</p>
+<p>a seconda del loro <em>effetto</em>, le trappole faranno da 1 a 3 ferite.</p>
 <hr />
-<p>microsr text &amp; illustrations are © Bruno Bord - 2018-2020<br />
+<p>il testo e le illustrazioni di microsr sono © bruno bord - 2018-2020<br />
+il testo della traduzione in italiano di microsr è © francesco catenacci - 2023<br />
 <a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by</a></p>
 </body>
 </html>

@@ -1,55 +1,54 @@
-# changes
+# modifiche
 
 ## master
 
-* npc main stat becomes *might*. the word *power* was also used for magic, that was confusing.
-* changed starting bonus for domains, applying a "worse" output. randomly, on average, their sum is -1. static scores are adapted to it.
-* [tech] disabled the `ascii_identifiers` extension. latest pandoc release was mangling section identifiers.
-* [tech] newest pandoc release (2.9.2.1) removes HTML entities (such as `&quot;`)
-* [tech] change working directory when running the `make serve` command.
-
+* la caratteristica principale dei **png** diventa *potenza*. la parola potere è usata anche per la magia e pertanto si creava confusione.
+* modifica del bonus iniziale dei domini tramite l'applicazione di un output "peggiore". a caso, in media, la somma è -1. i punteggi statici sono stati adattati di conseguenza.
+[tech] disabilitata l'estensione degli 'ascii_identifiers'. l'ultima release di pandoc stava maciullando gli identificatori delle sezioni.
+* [tech] la più recente release di pandoc (la 2.9.2.1) rimuove le entità html (tipo '&quot;')
+* [tech] cambiata la directory di lavoro quando è in esecuzione il comando 'make serve'.
 
 ## beta 2
 
-released on june, 7th 2018.
+rilasciata il 7 giugno 2018.
 
-* removed domains: *concentration* & *intuition*, added *instinct* & *athletics*.
-* initiative now relies on *instinct*.
-* *wounds* adjustments: small change to wounds modifier for foes & monsters, fixed a typo: normal characters have 5 wounds.
-* origins are removed, perks added to give a bonus to the character. non-magical perks are for everybody.
-* magic-users and related spell & spellcasting rules.
-* dragons are magic-users.
-* added morale checks rules & guidelines.
-* *optional rule*: **gm** permission needed for save rerolls.
-* you can roll for your domain modifiers.
-* add "meat" to your characters.
-* design notes:
-  * minimalism: small is beautiful, less is more.
-  * domains: why and how. no perception rolls
-  * dice: why d6 only, why 2d6+mod
-  * the game is deadly
-  * freeform magic: flexible and minimalist.
-* edited the "reroll" section.
-* fixed wording: it's *save check* everywhere.
-* fixed wording: you don't "become level X", you, "*reach* level X".
-* [nav] changed the navigation & site organization - 3 pages now: the homepage, the game rules, design notes + changelog.
-* [style] act section, better style.
-* [style] added microknight image.
-* [style] added micromage image.
-* [typo] "chose" => "choose".
-* [typo] fixed "n/a" that was in upper caps.
-* [tech] download and use a local copy of the "im fell webfont".
-* [tech] footer is now a markdown file.
+* domini rimossi: *concentrazione* & *intuizione*; aggiunti *istinto* & *atletica*.
+* l'iniziativa ora si basa sull'*istinto*.
+* modifiche alle *ferite*: piccolo cambiamento al modificatore delle ferite per rivali & mostri; corretto un refuso: i personaggi ordinari hanno 5 ferite.
+* le origini sono state rimosse, sono stati aggiunti gli extra per fornire un bonus al personaggio. gli extra non magici sono per chiunque.
+* utenti di magia e regole relative a incantesimi & lancio degli incantesimi.
+* i draghi sono utenti di magia.
+* aggiunte le regole & le linee guida per le prove di morale.
+* *regola opzionale*: i ritiri per salvarsi hanno bisogno dell'approvazione della persona che gioca come **gm**.
+* è prevista la possibilità di tirare per stabilire i modificatori dei propri domini.
+* aggiunta "carne a cuocere" per i **pg**.
+* appunti di design:
+  * minimalismo: piccolo è bello, poco è meglio.
+  * domini: come & perché. niente tiri di percezione.
+  * dadi: perché solo d6, perché 2d6+mod
+  * il gioco è letale
+  * magia in forma libera: flessibile e minimalista.
+* editing alla sezione sui "ritiri".
+* corretta una formulazione: ora, è ovunque *prova per salvarsi*.
+* corretta una formulazione: non "diventi livello X", ma "*raggiungi* il livello X".
+* [nav] cambiata la navigazione & l'organizzazione del sito - ora è a 3 pagine: homepage, regolamento, appunti di design + changelog.
+* [stile] sezione "passare all'azione", miglioramento dello stile.
+* [stile] aggiunta l'illustrazione del microknight.
+* [stile] aggiunta l'illustrazione del micromage.
+* [refuso] "chose" => "choose" ("hai scelto" => "scegli" - *n.d.t.*).
+* [refuso] corretto "n/a", che era in maiuscolo.
+* [tech] scaricare e utilizzare una copia locale del font "im fell english".
+* [tech] il piè di pagina è adesso un file markdown.
 
 ## beta 1
 
-first published version.
+prima versione pubblicata.
 
-*microsr* is a minimalist take on old-school roleplaying game, using a minimalist ruleset.
+*microsr* è una rivisitazione minimalistica del gioco di ruolo old school tramite un set minimalistico di regole.
 
-* uses only six-siders (d6),
-* actions are resolved with 2d6+modifier and comparing to the same 3-tier levels "à la" *apocalypse world*,
-* allegedly quite deadly (it's been ran through simulations, at basic level, the monsters are dangerous),
-* characters don't have "charisma" or "intelligence" stat, they are due to the player,
-* flexible experience system,
-* published under the terms of the [creative commons cc-by license](https://creativecommons.org/licenses/by/4.0/).
+* si usano solo dadi a sei facce (d6).
+* le azioni sono risolte con 2d6+modificatore da confrontare con il sistema a 3 esiti "à la" *il mondo dell'apocalisse*.
+* a quanto pare è abbastanza letale (è stato sottoposto a simulazioni; a livello base i mostri sono pericolosi).
+* i personaggi non hanno caratteristiche come "carisma" o "intelligenza", dipendono da chi li gioca.
+* sistema flessibile per l'esperienza.
+* pubblicato secondo i termini della [licenza creative commons cc-by](https://creativecommons.org/licenses/by/4.0/).

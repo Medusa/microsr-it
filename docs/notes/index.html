@@ -5,125 +5,121 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>microsr — design notes &amp; changelog</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
   <link rel="stylesheet" href="../style.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
-<h1 id="design-notes">design notes</h1>
-<h2 id="minimalism">minimalism</h2>
-<p>small is beautiful. less is more. you can "play pretend" with almost no rule. rpgs can be <a href="https://brunobord.github.io/micro-rpg-catalog/six-word-rpg.html">six word long</a>, and still carry enough material to start a decade-long campaign.</p>
-<p>less rules means more room for improvisation, rulings and flexibility, without hindering the flow of the game. you don't have to dig into a 300-page rulebook.</p>
+<h1 id="appunti-di-design">appunti di design</h1>
+<h2 id="minimalismo">minimalismo</h2>
+<p>piccolo è bello. meno è meglio. si può &quot;giocare a fare finta&quot; usando quasi zero regole. i gdr possono essere <a href="https://brunobord.github.io/micro-rpg-catalog/six-word-rpg.html">lunghi sei parole</a> e fornire comunque abbastanza materiale per poter iniziare una campagna decennale.</p>
+<p>meno regole significa più spazio per improvvisazione, decisioni e flessibilità, senza ostacolare il flusso del gioco. non devi scavare in un manuale di 300 pagine.</p>
 <blockquote>
-<p>"can my character dive in from this cliff in the ocean?"<br />
-"let me see... okay, roll 2d6 and add your <em>instinct</em> mod, we'll work out, but you might be warned: it's dangerous, there's a high risk to get hurt."<br />
-"ok, let me dive, the orcs are behind me, there's no other way out".</p>
+<p>&quot;il mio personaggio può tuffarsi nell'oceano dalla scogliera?&quot;<br />
+&quot;vediamo... okay, tira 2d6 e aggiungi il tuo mod di istinto, qualcosa tireremo fuori, ma devo avvisarti: è pericoloso, il rischio di farsi male è alto.&quot;<br />
+&quot;ok, allora mi tuffo, gli orchi mi sono alle calcagna, non c'è altra via d'uscita&quot;.</p>
 </blockquote>
-<p>there's no rule for that, no damage table depending on the height of the cliff or the water temperature. the <strong>gm</strong> is more tempted to say "yes" and let the players write the story for their characters.</p>
-<p>you can get your head around the basic mechanism and houserule in a snap.</p>
-<p>but <strong>beware!</strong> less rules means more effort for the <strong>gm</strong> and the players to build around the characters and the scenes, it means more freedom, so it means more choice to make.</p>
-<p>minimalism doesn't mean it's easier.</p>
-<h2 id="dice">dice</h2>
-<p><em>microsr</em> only uses d6.</p>
+<p>non c'è una regola per tutto questo, nessuna tabella con i danni basati sull'altezza della scogliera o sulla temperatura dell'acqua. la persona che gioca come <strong>gm</strong> è più invogliata a dire &quot;sì&quot; e a lasciare che le altre persone partecipanti scrivano la storia dei loro personaggi.</p>
+<p>puoi afferrare il meccanismo base e tirare fuori una &quot;houserule&quot; in un lampo.</p>
+<p>però, <strong>attenzione!</strong> meno regole vuol dire maggiore impegno nella costruzione delle scene e dei personaggi da parte di <strong>gm</strong> e restanti partecipanti, indica più libertà e per questo ti dice che ci sono più scelte da fare.</p>
+<p>minimalismo non significa che il gioco sia più facile.</p>
+<h2 id="dadi">dadi</h2>
+<p><em>microsr</em> usa solo i d6.</p>
 <ul>
-<li>six-siders are ubiquitous. you can foster any boardgame in anybody's house. and if your friends' house doesn't have any boardgame or dice to loot... well... maybe it's time for you to reconsider your relationship.</li>
-<li>the sum of two d6 offers an interesting bell curve, easy to grasp and the three-tier success ladder from Apocalypse World is a solid tool to randomize results with a variety of outputs. it's not just "success vs. failure" with definitive odds.</li>
-<li>little math, and the satisfaction to "roll high" to win. "roll under" is nice, but it's easier to grasp for new players to understand that <em>higher is better</em>.</li>
+<li>i dadi a sei facce si trovano un po' ovunque: potreste farvi dare un qualsiasi gioco da tavolo in una qualsiasi casa. e, se nel vostro giro di amicizie, non dovesse esserci una casa con giochi da tavolo o dadi da saccheggiare... be'... forse è tempo di riconsiderare i vostri rapporti.</li>
+<li>la somma di due d6 offre un'interessante curva a campana, facile da capire, e la scala a tre stadi di successo da <em>il mondo dell'apocalisse</em> è uno strumento solido per randomizzare i risultati con una varietà di esiti. non si tratta semplicemente di &quot;successo vs. fallimento&quot; con probabilità definite.</li>
+<li>poca matematica e la soddisfazione del &quot;roll high&quot; per vincere. il &quot;roll under&quot; è carino, ma per le persone che si avvicinano per la prima volta al gioco è più immediato capire che <em>più alto è e meglio è</em>.</li>
 </ul>
-<p>it's nothing revolutionary, for sure.</p>
-<p>there are plenty of d6-based systems. <em>microsr</em> could have been "yet-another-d20-system" but... if you need a micro osr roleplaying game, simply buy the first edition of <a href="http://www.drivethrurpg.com/product/178359/The-Black-Hack">The Black Hack</a>, by David Black, for example.</p>
-<h2 id="domains">domains</h2>
-<p>stats usually represent the inherent abilities of a character. fine.<br />
-skills usually represent the <em>acquired</em> abilities, due to their background, training, experience. good.</p>
-<p>both are great. both will give coherent characters, add some spice to the game and allow players to make choices on the actions of their characters (<em>"shall we do 'x'? my bonus is 'y' so we're confident or doubtful..."</em>).</p>
-<p><em>domains</em> are a bit different ; some are purely inherent abilities (<em>instinct</em>), some are purely acquired (<em>lore</em>), but to some extent, they're both acquired &amp; inherent. maybe your character is gifted for <em>combat</em> because of their huge muscle mass, or maybe that's because they've followed some training... or both! <em>lore</em> works the same: you've been educated so you know stuff, but you've also been chosen to have lessons because somebody has perceived your excellent memory and capacity to learn...</p>
-<p>here, there's no <em>int</em> or <em>cha</em> stat. player skills prevails for these.<br />
-for example: the intelligence of the player prevails when you need to solve a puzzle or decipher an enigma. how would you represent the fact that the <em>player</em> knows the answer and not the character? and what about the opposite?</p>
-<p>and, as expected, there's no perception-related check stat. you don't roll to see a trap, players have to do their job if they want to survive.</p>
-<p>but of course, if you don't want to use domains, switch to the usual sextuor: <em>str</em>, <em>dex</em>, <em>con</em>, <em>int</em>, <em>wis</em>, <em>char</em>, the general mechanics will work.</p>
-<h2 id="deadly">deadly</h2>
-<p>characters only have 5 "wounds". a "tough" character would have up to 6 wounds. a normal weapon deals one wound. heavy weapons deal two. traps from one to three wounds.</p>
-<p>players would probably think twice before trying to engage in a fight. they'll check for trap.</p>
-<p>because the usual dungeon exploration dangers can cripple them very badly, it should be a motivation to avoid them instead of rushing towards them.</p>
-<h2 id="freeform-magic">freeform magic</h2>
-<p>spell lists are great. really. but there are so many different ways to design them that it becomes more and more complicated as you dig into the details. you've got magic realms, wizardry, sorcery, elementary magic, illusions.</p>
-<p>should we have clerics? oh then you'll need to build a pantheon, religions and principles, define heresy, etc.</p>
-<p>should we scale them on the level ladder? should we not, and make them more powerful as you level up?</p>
-<p>pure freeform magic, on the other hand, is hard to handle. how to say "no" to a player that wants to set the whole castle on fire, just because their character is a wizard?</p>
-<p>this <a href="http://www.panix.com/~sos/rpg/4by5.html">“four by five magic”</a> is, in my opinion, an elegant mechanism between pure freeform magic and spell lists.</p>
-<p>you have magical realms, that act as the core <em>domains</em> of the character, and then actions to apply an effect on the given domain.<br />
-they're as vague and as precise as you want. the <strong>gm</strong> can discuss them with the player, and define its limits and how powerful this magic would be. eventually, when the magic-user would level up, they'll be able to throw more powerful spells and more times per day.</p>
+<p>di certo, nulla di rivoluzionario.</p>
+<p>c'è una moltitudine di regolamenti basati sul d6. <em>microsr</em> sarebbe potuto essere un &quot;ennesimo-d20-system&quot;, ma... qualora foste alla ricerca di un micro gioco di ruolo in stile osr, vi basterebbe, per esempio, comprare la prima edizione di <a href="http://www.drivethrurpg.com/product/178359/The-Black-Hack">the black hack</a> di david black.</p>
+<h2 id="domini">domini</h2>
+<p>le caratteristiche di solito rappresentano le capacità innate di un personaggio. bene.<br />
+le abilità di solito rappresentano le capacità <em>acquisite</em>, grazie alla sua formazione, al suo addestramento, alla sua esperienza. ottimo.</p>
+<p>entrambe sono grandiose. entrambe daranno personaggi coerenti, aggiungeranno un po' di pepe al gioco e consentiranno a chi gioca un <strong>pg</strong> di fare delle scelte rispetto alle azioni del proprio personaggio (<em>&quot;bisogna fare 'x'? il mio bonus è 'y' e quindi pensiamo di potercela fare oppure abbiamo dei dubbi?&quot;</em>).</p>
+<p>i <em>domini</em> sono un po' diversi. Alcuni sono semplicemente capacità innate (<em>istinto</em>), altri sono soltanto capacità acquisite (<em>conoscenza</em>), ma, per certi versi, sono in entrambi i casi sia acquisite che innate. forse il tuo personaggio ha un talento per il <em>combattimento</em> in virtù della sua gigantesca massa muscolare o magari perché si è sottoposto a un certo addestramento... o entrambe le cose! <em>conoscenza</em> funziona nello stesso modo: il personaggio ha ricevuto un'educazione e quindi sa delle cose, ma è stato anche scelto per prendere delle lezioni poiché c'è chi ha percepito la sua eccellente memoria e la sua eccellente capacità di apprendimento...</p>
+<p>qui non ci sono caratteristiche come <em>int</em> o <em>car</em>. le abilità di chi muove il <strong>pg</strong> hanno la precedenza.<br />
+per esempio: l'intelligenza di chi sta giocando il <strong>pg</strong> ha la precedenza quando si prova a risolvere un puzzle o a decifrare un enigma. come rappresentereste il fatto che la <em>persona</em> sa la risposta, ma il suo personaggio no? e che dire del contrario?</p>
+<p>e, come ci si aspetterebbe, non c'è alcuna prova di caratteristica correlata alla percezione: non tiri per vedere una trappola, ogni persona che gioca con un <strong>pg</strong> deve fare la sua parte se vuole farlo sopravvivere.</p>
+<p>naturalmente, però, se non volete usare i domini potete passare al solito sestetto, <em>for</em>, <em>des</em>, <em>cos</em>, <em>int</em>, <em>sag</em>, <em>car</em>: la meccanica generale funzionerà lo stesso.</p>
+<h2 id="letalità">letalità</h2>
+<p>i personaggi possiedono solo 5 &quot;ferite&quot;. un personaggio &quot;resistente&quot; arriverebbe a 6 ferite. un'arma ordinaria infligge una sola ferita. le armi pesanti ne fanno due. le trappole da una sola ferita a tre ferite.</p>
+<p>le persone che giocano i <strong>pg</strong> ci penseranno due volte prima di provare a ingaggiare battaglia. si metteranno in cerca delle trappole.</p>
+<p>visto che i tipici pericoli da esplorazione dei dungeon possono compromettere i <strong>pg</strong> in modo molto serio, ciò dovrebbe essere una valida motivazione per evitarli invece che correrci incontro a scavezzacollo.</p>
+<h2 id="magia-freeform">magia freeform</h2>
+<p>gli elenchi di incantesimi sono fantastici. davvero. ci sono però così tanti modi differenti di progettarli che tutto diventa via via sempre più complicato più ci si addentra nei dettagli. ci sono i reami di magia, la magia accademica, la stregoneria, la magia elementale, le illusioni.</p>
+<p>dovremmo avere personaggi chierici? oh e allora ci sarà bisogno di costruire un pantheon, di religioni e princìpi, di definire le eresie, ecc.</p>
+<p>dovremmo bilanciarli in base a una scala di livelli? oppure no, ma dovremmo renderli più potenti non appena si passa di livello?</p>
+<p>d'altra parte, la magia in totale forma libera è difficile da gestire. come dire &quot;no&quot; a chi vuole che il proprio personaggio dia fuoco a un intero castello semplicemente perché è un mago?</p>
+<p>questo &quot;<a href="http://www.panix.com/~sos/rpg/4by5.html"><em>four by five magic</em></a>&quot; è, secondo me, un metodo elegante che si pone tra la magia totalmente freeform e le liste incantesimi.</p>
+<p>abbiamo i reami magici, che funzionano come i <em>domini</em> principali dei personaggi, e poi le azioni per applicare un effetto su di un dato dominio.<br />
+sono vaghi e precisi quanto si desidera che lo siano. chi fa da <strong>gm</strong> può discutere con le persona interessate e definire i limiti e quanto potente potrebbe essere una certa magia. se opportuno, quando l'utente di magia passerebbe di livello, sarà in grado di lanciare incantesimi più potenti e per più volte al giorno.</p>
 <h2 id="colophon">colophon</h2>
 <ul>
-<li>the six domains were originally inspired by <a href="http://www.story-games.com/forums/discussion/21359/lite-rpgs-to-run-a-d-d-like-game-session">this forum thread on Story-Game.com</a> about converting D&amp;D using Fate Accelerated approaches.</li>
-<li>the magic system is known as <a href="http://www.panix.com/~sos/rpg/4by5.html">“four by five magic”</a>, and was especially designed for fudge, but as you can see, it fits every fantasy system.</li>
-<li>the 3-tier resolution roll is inspired by the <a href="http://apocalypse-world.com/">Apocalypse World</a> move resolution (although this game is not powered by moves and it can't be considered as “PbtA”).</li>
-<li>the "act" manifesto is borrowed from <a href="http://www.tao-games.com/deeds-and-doers/">Deeds &amp; Doers</a>, by P. H. Lee.</li>
+<li>i sei domini fuorno originariamente ispirati da <a href="http://www.story-games.com/forums/discussion/21359/lite-rpgs-to-run-a-d-d-like-game-session">questa discussione del forum su story-game.com</a> riguardo a un addattamento di <em>d&amp;d</em> fatto usando gli approcci di <em>fate accelerato</em>.</li>
+<li>il sistema di magia è conosciuto come &quot;<a href="http://www.panix.com/~sos/rpg/4by5.html"><em>four by five magic</em></a>&quot; ed era ideato specificatamente per <em>fudge</em>, ma, come potrai vedere, si adatta a qualunque regolamento fantasy.</li>
+<li>il sistema di risoluzione a 3 esiti è ispirato alla risoluzione delle mosse ne <a href="http://apocalypse-world.com/"><em>il mondo dell'apocalisse</em></a> (anche se questo gioco non è spinto dalle mosse e non può essere considerato un &quot;pbta&quot;).</li>
+<li>il manifesto &quot;passare all'azione&quot; è preso in prestito da <a href="http://www.tao-games.com/deeds-and-doers/"><em>deeds &amp; doers</em></a> di p. h. lee.</li>
 </ul>
-<h1 id="changes">changes</h1>
+<h1 id="modifiche">modifiche</h1>
 <h2 id="master">master</h2>
 <ul>
-<li>npc main stat becomes <em>might</em>. the word <em>power</em> was also used for magic, that was confusing.</li>
-<li>changed starting bonus for domains, applying a "worse" output. randomly, on average, their sum is -1. static scores are adapted to it.</li>
-<li>[tech] disabled the <code>ascii_identifiers</code> extension. latest pandoc release was mangling section identifiers.</li>
-<li>[tech] newest pandoc release (2.9.2.1) removes HTML entities (such as <code>&amp;quot;</code>)</li>
-<li>[tech] change working directory when running the <code>make serve</code> command.</li>
+<li>la caratteristica principale dei <strong>png</strong> diventa <em>potenza</em>. la parola potere è usata anche per la magia e pertanto si creava confusione.</li>
+<li>modifica del bonus iniziale dei domini tramite l'applicazione di un output &quot;peggiore&quot;. a caso, in media, la somma è -1. i punteggi statici sono stati adattati di conseguenza.<br />
+[tech] disabilitata l'estensione degli 'ascii_identifiers'. l'ultima release di pandoc stava maciullando gli identificatori delle sezioni.</li>
+<li>[tech] la più recente release di pandoc (la 2.9.2.1) rimuove le entità html (tipo '&quot;')</li>
+<li>[tech] cambiata la directory di lavoro quando è in esecuzione il comando 'make serve'.</li>
 </ul>
 <h2 id="beta-2">beta 2</h2>
-<p>released on june, 7th 2018.</p>
+<p>rilasciata il 7 giugno 2018.</p>
 <ul>
-<li>removed domains: <em>concentration</em> &amp; <em>intuition</em>, added <em>instinct</em> &amp; <em>athletics</em>.</li>
-<li>initiative now relies on <em>instinct</em>.</li>
-<li><em>wounds</em> adjustments: small change to wounds modifier for foes &amp; monsters, fixed a typo: normal characters have 5 wounds.</li>
-<li>origins are removed, perks added to give a bonus to the character. non-magical perks are for everybody.</li>
-<li>magic-users and related spell &amp; spellcasting rules.</li>
-<li>dragons are magic-users.</li>
-<li>added morale checks rules &amp; guidelines.</li>
-<li><em>optional rule</em>: <strong>gm</strong> permission needed for save rerolls.</li>
-<li>you can roll for your domain modifiers.</li>
-<li>add "meat" to your characters.</li>
-<li>design notes:
+<li>domini rimossi: <em>concentrazione</em> &amp; <em>intuizione</em>; aggiunti <em>istinto</em> &amp; <em>atletica</em>.</li>
+<li>l'iniziativa ora si basa sull'<em>istinto</em>.</li>
+<li>modifiche alle <em>ferite</em>: piccolo cambiamento al modificatore delle ferite per rivali &amp; mostri; corretto un refuso: i personaggi ordinari hanno 5 ferite.</li>
+<li>le origini sono state rimosse, sono stati aggiunti gli extra per fornire un bonus al personaggio. gli extra non magici sono per chiunque.</li>
+<li>utenti di magia e regole relative a incantesimi &amp; lancio degli incantesimi.</li>
+<li>i draghi sono utenti di magia.</li>
+<li>aggiunte le regole &amp; le linee guida per le prove di morale.</li>
+<li><em>regola opzionale</em>: i ritiri per salvarsi hanno bisogno dell'approvazione della persona che gioca come <strong>gm</strong>.</li>
+<li>è prevista la possibilità di tirare per stabilire i modificatori dei propri domini.</li>
+<li>aggiunta &quot;carne a cuocere&quot; per i <strong>pg</strong>.</li>
+<li>appunti di design:
 <ul>
-<li>minimalism: small is beautiful, less is more.</li>
-<li>domains: why and how. no perception rolls</li>
-<li>dice: why d6 only, why 2d6+mod</li>
-<li>the game is deadly</li>
-<li>freeform magic: flexible and minimalist.</li>
+<li>minimalismo: piccolo è bello, poco è meglio.</li>
+<li>domini: come &amp; perché. niente tiri di percezione.</li>
+<li>dadi: perché solo d6, perché 2d6+mod</li>
+<li>il gioco è letale</li>
+<li>magia in forma libera: flessibile e minimalista.</li>
 </ul></li>
-<li>edited the "reroll" section.</li>
-<li>fixed wording: it's <em>save check</em> everywhere.</li>
-<li>fixed wording: you don't "become level X", you, "<em>reach</em> level X".</li>
-<li>[nav] changed the navigation &amp; site organization - 3 pages now: the homepage, the game rules, design notes + changelog.</li>
-<li>[style] act section, better style.</li>
-<li>[style] added microknight image.</li>
-<li>[style] added micromage image.</li>
-<li>[typo] "chose" =&gt; "choose".</li>
-<li>[typo] fixed "n/a" that was in upper caps.</li>
-<li>[tech] download and use a local copy of the "im fell webfont".</li>
-<li>[tech] footer is now a markdown file.</li>
+<li>editing alla sezione sui &quot;ritiri&quot;.</li>
+<li>corretta una formulazione: ora, è ovunque <em>prova per salvarsi</em>.</li>
+<li>corretta una formulazione: non &quot;diventi livello X&quot;, ma &quot;<em>raggiungi</em> il livello X&quot;.</li>
+<li>[nav] cambiata la navigazione &amp; l'organizzazione del sito - ora è a 3 pagine: homepage, regolamento, appunti di design + changelog.</li>
+<li>[stile] sezione &quot;passare all'azione&quot;, miglioramento dello stile.</li>
+<li>[stile] aggiunta l'illustrazione del microknight.</li>
+<li>[stile] aggiunta l'illustrazione del micromage.</li>
+<li>[refuso] &quot;chose&quot; =&gt; &quot;choose&quot; (&quot;hai scelto&quot; =&gt; &quot;scegli&quot; - <em>n.d.t.</em>).</li>
+<li>[refuso] corretto &quot;n/a&quot;, che era in maiuscolo.</li>
+<li>[tech] scaricare e utilizzare una copia locale del font &quot;im fell english&quot;.</li>
+<li>[tech] il piè di pagina è adesso un file markdown.</li>
 </ul>
 <h2 id="beta-1">beta 1</h2>
-<p>first published version.</p>
-<p><em>microsr</em> is a minimalist take on old-school roleplaying game, using a minimalist ruleset.</p>
+<p>prima versione pubblicata.</p>
+<p><em>microsr</em> è una rivisitazione minimalistica del gioco di ruolo old school tramite un set minimalistico di regole.</p>
 <ul>
-<li>uses only six-siders (d6),</li>
-<li>actions are resolved with 2d6+modifier and comparing to the same 3-tier levels "à la" <em>apocalypse world</em>,</li>
-<li>allegedly quite deadly (it's been ran through simulations, at basic level, the monsters are dangerous),</li>
-<li>characters don't have "charisma" or "intelligence" stat, they are due to the player,</li>
-<li>flexible experience system,</li>
-<li>published under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by license</a>.</li>
+<li>si usano solo dadi a sei facce (d6).</li>
+<li>le azioni sono risolte con 2d6+modificatore da confrontare con il sistema a 3 esiti &quot;à la&quot; <em>il mondo dell'apocalisse</em>.</li>
+<li>a quanto pare è abbastanza letale (è stato sottoposto a simulazioni; a livello base i mostri sono pericolosi).</li>
+<li>i personaggi non hanno caratteristiche come &quot;carisma&quot; o &quot;intelligenza&quot;, dipendono da chi li gioca.</li>
+<li>sistema flessibile per l'esperienza.</li>
+<li>pubblicato secondo i termini della <a href="https://creativecommons.org/licenses/by/4.0/">licenza creative commons cc-by</a>.</li>
 </ul>
 <hr />
-<p>microsr text &amp; illustrations are © Bruno Bord - 2018-2020<br />
+<p>il testo e le illustrazioni di microsr sono © bruno bord - 2018-2020<br />
+il testo della traduzione in italiano di microsr è © francesco catenacci - 2023<br />
 <a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by</a></p>
 </body>
 </html>

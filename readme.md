@@ -2,24 +2,24 @@
 
 ![warning: untested rpg](https://img.shields.io/badge/rpg-untested-red.svg)
 
-> minimalist d6-based rules for old-school roleplaying game.
+> regole minimaliste basate sul d6 per gioco di ruolo vecchia scuola.
 
-*microsr* is an old-school roleplaying game system designed to be as minimalist and sleek as possible. it only uses six-sided dice (d6) and emulates the usual medieval-fantasy genre.
+*microsr* è un gioco di ruolo old school progettato per essere minimalista e scorrevole quanto più possibile. Usa solo dadi a sei facce (d6) ed emula il tipico fantasy medievale.
 
-## license
+## licenza
 
-the game text and illustrations are published under the terms of the [creative commons cc-by license](https://creativecommons.org/licenses/by/4.0/), which means you can do whatever you want with this, as long as you give appropriate credits when you republish verbatim or modified versions of it.
+il testo del gioco e le illustrazioni sono pubblicate secondo i termini della [licenza creative commons cc-by](https://creativecommons.org/licenses/by/4.0/), il che significa che si può farne quello che si vuole a patto che si diano le opportune attribuzioni quando lo si ripubblica in versioni *verbatim* o modificate.
 
-## building the html page
+## per costruire la pagina html
 
-requirements: pandoc (>=2.0) + make (but everybody has `make`, right?).
+requisiti: pandoc (>=2.0) + make (e chi è che non ha `make`, giusto?).
 
     make build
 
-## serve the html page
+## per controllare la pagina html
 
-requirements: python (>=3.0) + a modern web browser
+requisiti: python (>=3.0) + un web browser moderno.
 
     make serve
 
-you can browse the result at <http://127.0.0.1:8000>.
+puoi dare un'occhiata al risultato su <http://127.0.0.1:8000>.

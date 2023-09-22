@@ -2,15 +2,15 @@
 
 ![warning: untested rpg](https://img.shields.io/badge/rpg-untested-red.svg)
 
-> minimalist d6-based rules for old-school roleplaying game.
+> regole minimaliste basate sul d6 per gioco di ruolo vecchia scuola.
 
-*microsr* is an old-school roleplaying game system designed to be as minimalist and sleek as possible. it only uses six-sided dice (d6) and emulates the usual medieval-fantasy genre.
+*microsr* è un gioco di ruolo old school progettato per essere minimalista e scorrevole quanto più possibile. usa solo dadi a sei facce (d6) ed emula il tipico fantasy medievale.
 
-## license
+## licenza
 
-the game text and illustrations are published under the terms of the [creative commons cc-by license](https://creativecommons.org/licenses/by/4.0/), which means you can do whatever you want with this, as long as you give appropriate credits when you republish verbatim or modified versions of it.
+il testo del gioco e le illustrazioni sono pubblicate secondo i termini della [licenza creative commons cc-by](https://creativecommons.org/licenses/by/4.0/), il che significa che ci si può farne quello che si vuole a patto che si diano le opportune attribuzioni quando lo si ripubblica in versioni *verbatim* o modificate.
 
-## browse
+## consultazione
 
-* [the game rules](game/)
-* [design notes & changelog](notes/)
+* [regolamento](game/)
+* [appunti di design & registro delle modifiche](notes/)
