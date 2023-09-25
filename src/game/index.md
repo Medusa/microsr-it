@@ -25,7 +25,7 @@ ci sono sei domini: *combattimento*, *istinto*, *furtività*, *spedizione*, *con
 
 ### salute
 
-i personaggi normali hanno 5 ferite.
+i personaggi ordinari hanno 5 ferite.
 
 a partire dal grado di salute *indebolito*, i personaggi subiscono un modificatore a tutte le loro azioni.
 
@@ -60,7 +60,7 @@ prendine due (non puoi prendere lo stesso extra due volte):
 * *dita agili*: scassinare serrature, rimuovere trappole, svuotare tasche, ecc.
 * *ultra-veloce*: corsa e iniziativa.
 * *competenza*: scegli uno specifico campo del sapere (scienza?) in cui hai esperienza. chi fa da **gm** deve essere d'accordo sulla descrizione di questo campo.
-* *pellaccia dura*: quando tiri per una *prova per salvarsi*.
+* *osso duro*: quando tiri per una *prova per salvarsi*.
 * *resistente*: nessun bonus, ma aggiungi un ulteriore grado di salute, "scalfito".
 * *contatto*: nessun bonus; chi gioca il personaggio dovrebbe descrivere un contatto che fornisce servizi utili o a costi ridotti o nulli (informazioni, materiale, ecc.). chi fa da **gm** deve essere d'accordo con la descrizione.
 

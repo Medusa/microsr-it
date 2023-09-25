@@ -67,4 +67,4 @@ d'altra parte, la magia in totale forma libera è difficile da gestire. come dir
 questo "[*four by five magic*](http://www.panix.com/~sos/rpg/4by5.html)" è, secondo me, un metodo elegante che si pone tra la magia totalmente freeform e le liste incantesimi.
 
 abbiamo i reami magici, che funzionano come i *domini* principali dei personaggi, e poi le azioni per applicare un effetto su di un dato dominio.
- sono vaghi e precisi quanto si desidera che lo siano. chi fa da **gm** può discutere con le persona interessate e definire i limiti e quanto potente potrebbe essere una certa magia. se opportuno, quando l'utente di magia passerebbe di livello, sarà in grado di lanciare incantesimi più potenti e per più volte al giorno.
+ sono vaghi e precisi quanto si desidera che lo siano. chi fa da **gm** può discutere con le persone interessate e definire i limiti e quanto potente potrebbe essere una certa magia. se opportuno, quando l'utente di magia passerebbe di livello, sarà in grado di lanciare incantesimi più potenti e per più volte al giorno.
