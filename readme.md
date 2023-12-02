@@ -4,7 +4,7 @@
 
 > regole minimaliste basate sul d6 per gioco di ruolo vecchia scuola.
 
-*microsr* è un gioco di ruolo old school progettato per essere minimalista e scorrevole quanto più possibile. Usa solo dadi a sei facce (d6) ed emula il tipico fantasy medievale.
+*microsr* è un gioco di ruolo old school progettato per essere minimalista e scorrevole quanto più possibile. usa solo dadi a sei facce (d6) ed emula il tipico fantasy medievale.
 
 ## licenza
 
